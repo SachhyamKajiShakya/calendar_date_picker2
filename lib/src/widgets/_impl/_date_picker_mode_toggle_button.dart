@@ -233,9 +233,7 @@ class _DatePickerModeToggleButtonState
                       ),
                     ),
                   ),
-                  SizedBox(
-                    width: widget.config.centerAlignModePicker == true ? 50 : 5,
-                  ),
+                  const SizedBox(width: 5),
                   Semantics(
                     label: MaterialLocalizations.of(context)
                         .selectYearSemanticsLabel,
